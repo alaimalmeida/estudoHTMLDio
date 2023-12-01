@@ -1,0 +1,242 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    /* width: 15%; */
+    background-color: #188099;
+    /* padding: 10px 20px 0px; */
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    /* padding: 20px; */
+}
+
+.footer {
+    background-color: #06586e;
+    min-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+/* Meu css */
+.menu ul {
+    padding: 0;
+}
+
+.menu li {
+    background-color: #06586e;
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #fff;
+    list-style-type: none;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    color: #0077b6;
+}
+
+.header {
+    background: url(img/fundo-1.jpg) bottom no-repeat;
+    width: 100%;
+    height: 310px;
+    background-size: cover;
+    background-position-y: -147px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: -2%;
+    font-family: sans-serif;
+}
+
+.header p {
+    color: #fff;
+    padding: 0 2%;
+    font-family: sans-serif;
+}
+
+.texto-header {
+    font-size: 0.4em;
+}
+
+.titulo {
+    padding-left: 4%;
+}
+
+.sobre-home {
+    display: flex;
+}
+
+.sobre-home img,
+.texto-content {
+    padding: 0px 0px 0px 5px;
+    font-family: sans-serif;
+    margin-left: 2%;
+}
+
+.texto-content h2 {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.botao {
+    background: #06586e;
+    color: #fff;
+    padding: 2% 6%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+}
+
+.botao:hover {
+    background: #188099;
+}
+
+.botao a {
+    color: #fff;
+    text-decoration: none;
+}
+.content p{
+    font-family: sans-serif;
+}
+.footer p {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+.destaques{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #81a7b1;
+    padding: 4% 0px 5px 0px;
+    margin-top: 3%;
+}
+.destaques h3{
+    font-family: sans-serif;
+    background-color: #188099;
+    padding: 2%;
+    color: #fff;
+}
+.text-1{
+    padding-left: 2%;
+}
+.sobre {
+    background: url(img/fundo-02.jpg) bottom no-repeat;
+    width: 100%;
+    height: 310px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.atendimento{
+    padding: 2%;
+}
+.atendimento td, .atendimento th{
+    padding: 10px;
+    text-align: center;
+}
+.contato {
+    background: url(img/fundo-03.jpg) bottom no-repeat;
+    width: 100%;
+    height: 310px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formulario input {
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 6px;
+    position: relative;
+    left: 20px;
+}
+.formulario textarea{
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 6px;
+}
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.btn{
+    background: #06586e;
+    color: #fff;
+    padding: 2% 6%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+.btn-2{
+    background: #02b52c;
+    color: #fff;
+    padding: 2% 6%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+.btn:hover{
+    background:#188099;
+}
+.btn-2:hover{
+    background:#025f18;
+}
+.border{
+    border: 1px solid #000;
+}
